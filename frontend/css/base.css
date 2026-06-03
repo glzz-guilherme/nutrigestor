@@ -1,0 +1,22 @@
+:root {
+    --cor-primaria: #1E6BA0;
+    --cor-secundaria: #27AE60;
+    --cor-alerta: #E74C3C;
+    --cor-fundo: #F4F6F9;
+    --cor-texto: #2C3E50;
+    --fonte-principal: "Segoe UI", Arial, sans-serif;
+    --raio-borda: 6px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: o;
+
+}
+
+header { background-color: var(--cor-primaria); color: #fff; padding: 1rem 2rem; }
+nav ul { list-style: none; display: flex; gap: 1rem; padding: 1rem 2rem; }
+nav a { color: var(--cor-primaria); text-decoration: none; font-weight: 500; }
+main { padding: 2rem;}
